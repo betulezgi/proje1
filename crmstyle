@@ -1,0 +1,451 @@
+.button-container .btn-success {
+    margin-bottom: 6px;
+    margin-left: 25px;
+    height: 43px;
+    width: 100%;
+}
+
+.crm-container .whead {
+    height: 30px;
+    padding: 5px;
+}
+
+.crm-container .btn-success {
+    background: #2db0d8; /* Old browsers */
+    background: -moz-linear-gradient(top, #FB9B00 0%, #F58220 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FB9B00), color-stop(100%, #F58220)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #FB9B00 0%, #F58220 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #FB9B00 0%, #F58220 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #FB9B00 0%, #F58220 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #FB9B00 0%, #F58220 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FB9B00', endColorstr='#F58220', GradientType=0); /* IE6-9 */
+
+}
+
+.pagination .active {
+    background: #FC0;
+}
+
+/* LIST */
+
+.todo-list {
+    margin: 0;
+    padding: 0 25px 0px 0px;
+    height: 500px;
+    overflow: auto;
+}
+
+.user-task-container {
+    width: 30% !important;
+    float: left;
+    margin-right: 15px;
+}
+
+.user-task-container.public-task {
+    margin: 0 0px 0 15px;
+}
+
+.crm-text-container .ta-toolbar {
+    display: none;
+}
+
+.task-filter-container label {
+    display: inline-block;
+    width: 25%;
+    position: relative;
+}
+
+.task-filter-container {
+    background: #F8F8F8;
+    padding: 10px;
+    border-bottom: 1px solid #DDD;
+    margin-bottom: 1px;
+}
+
+.task-filter-container a {
+    margin-top: 0px;
+    display: block;
+}
+
+.ta-scroll-window > .ta-bind {
+    height: auto;
+    min-height: 458px !important;
+    padding: 6px 12px;
+}
+
+.task-filter-container select, .task-filter-container input {
+    margin: 0px;
+    width: 70%;
+    margin-bottom: 5px;
+}
+
+.todo-list li {
+    background: #f8f8f8;
+    border-left: 2px solid rgba(0, 0, 0, 0.04);
+    list-style: none;
+    margin-bottom: 4px;
+    padding: 10px;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.todo-list li ul li {
+    width: 95%;
+    background: #F1F1F1;
+
+}
+
+.subtasks-container {
+    margin: 5px 15px;
+}
+
+.subtasks-container > a {
+    width: 100%;
+    background: #F1F1F1;
+    text-align: center;
+    display: block;
+    position: relative;
+    padding: 5px 0px;
+    border-left: 2px solid rgba(0, 0, 0, 0.04);
+    border-right: 2px solid rgba(0, 0, 0, 0.04);
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: #333333;
+}
+
+.todo-list a:hover, .todo-list a:focus {
+    color: #005580;
+    text-decoration: none !important;
+}
+
+.todo-list li:hover {
+    background: #ddd;
+}
+
+.todo-list li:hover .todo-tags {
+    display: none;
+}
+
+.todo-list li:hover .todo-options {
+    display: inline;
+    position: absolute;
+    right: 14px;
+    top: 10px;
+}
+
+.todo-list li .editable-buttons {
+    display: inline-block;
+    margin-left: 7px !important;
+}
+
+.todo-list li .editable-buttons i {
+    font-size: 18px;
+}
+
+.todo-list li .span-check {
+    height: 22px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 26px;
+}
+
+.todo-list li .todo-task {
+    border-bottom: 1px dashed rgba(0, 0, 0, 0) !important;
+    font-size: 12px;
+    width: 50%;
+    cursor: pointer;
+}
+
+.todo-list li .todo-task:hover {
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.2) !important;
+}
+
+.todo-list li .due-date span {
+    border-bottom: 1px dashed rgba(0, 0, 0, 0) !important;
+    font-size: 12px;
+}
+
+.todo-list li .todo-date {
+    display: block;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-left: 40px;
+}
+
+.todo-list li .todo-date .due-date {
+    float: right;
+}
+
+.todo-list li .todo-date .completed-date {
+    float: left;
+    margin-right: 20px;
+}
+
+.todo-list li .done .todo-date .due-date {
+    float: right;
+}
+
+.todo-list li .todo-options {
+    display: none;
+    font-size: 16px;
+}
+
+.todo-list li .todo-options a {
+    color: #888888;
+}
+
+.todo-list li .todo-options .todo-delete:hover {
+    color: #C75757;
+}
+
+.todo-list li .todo-tags {
+    display: inline;
+    font-family: "Open Sans";
+    left: auto;
+    position: absolute;
+    right: 9px;
+    top: 6px;
+}
+
+.todo-list li .editable-container.editable-inline {
+    margin-top: -4px;
+    overflow: visible;
+}
+
+.todo-list li .editable-unsaved {
+    font-weight: normal !important;
+}
+
+.todo-list li .editableform .btn.btn-sm {
+    margin-right: 0 !important;
+    margin-top: 0px;
+    padding: 7px 12px !important;
+}
+
+.todo-list li .editableform .btn.btn-sm i {
+    font-size: 12px !important;
+}
+
+.todo-list li.done {
+    opacity: .5;
+}
+
+.todo-list li.done .todo-task {
+    text-decoration: line-through;
+}
+
+.todo-list li.done .todo-tags {
+    display: inline !important;
+}
+
+.todo-list li.done .todo-options {
+    display: none !important;
+}
+
+.todo-list li > span {
+    display: inline-block;
+    height: 24px;
+    line-height: 26px;
+    margin-top: 5px;
+    max-width: 72%;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+}
+
+.todo-list li > span.todo-task {
+    overflow: hidden;
+}
+
+.todo-list li.high {
+    border-left: 2px solid #C75757;
+    border-right: none;
+}
+
+.todo-list li.medium {
+    border-left: 2px solid #FF9122;
+    border-right: none;
+}
+
+.todo-list li.low {
+    border-left: 2px solid #F3D261;
+    border-right: none;
+}
+
+.todo-list li.new-task input[type=checkbox] + label::before {
+    left: 3px;
+}
+
+.todo-list li.new-task input[type="checkbox"].checkbox-square:checked + label::after {
+    left: 4px;
+}
+
+.crm-editor-container {
+    width: 33% !important;
+    float: left;
+}
+
+.crm-text-container .ta-scroll-window, .crm-text-container .btn-toolbar {
+    border: 1px solid #ddd;
+    margin: 4px;
+}
+
+.crm-text-container .btn-group {
+    margin: 3px !important;
+    display: inline-flex !important;
+}
+
+.crm-editor-container .btn-container {
+    margin: 5px;
+}
+
+.crm-editor-container label {
+    display: inline;
+    margin-right: 15px;
+
+}
+
+.crm-editor-container .whead input, .crm-editor-container .whead select {
+    margin-bottom: 0px !important;
+}
+
+.due-date-span {
+    float: right;
+
+}
+
+.crm-editor-container label:first-child {
+    margin-left: 0px;
+}
+
+.crm-editor-container .datepicker {
+    margin-top: 10px;
+}
+
+.crm-editor-container .btn-success {
+    display: block;
+}
+
+.crm-editor-container .whead {
+    padding: 5px;
+}
+
+.share-container, .company-container {
+    width: 100%;
+    float: left;
+}
+
+@media only screen and  (max-width: 1024px) {
+
+    .user-task-container, .crm-editor-container {
+        width: 47% !important;
+        float: left;
+        margin-right: 15px;
+    }
+
+    .crm-editor-container {
+        margin-right: 0px;
+    }
+
+    .start-date-container, .due-date-container {
+        width: 90% !important;
+        float: left !important;
+    }
+
+    .public-task {
+        width: 100% !important;
+        float: left;
+        margin: 0 0px 15px 0px !important;
+    }
+
+    .mainMenu ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+}
+
+@media only screen and  (max-width: 1024px) {
+    .mainMenu > ul > li {
+        display: none;
+    }
+
+    .mainMenu .first {
+        display: block;
+        width: 100% !important;
+    }
+}
+
+.high {
+}
+
+.high.ng-move,
+.high.ng-enter,
+.high.ng-leave {
+    -webkit-transition: all linear 0.5s;
+    transition: all linear 0.5s;
+}
+
+.high.ng-leave.ng-leave-active,
+.high.ng-move,
+.high.ng-enter {
+    opacity: 0;
+}
+
+.high.ng-leave,
+.high.ng-move.ng-move-active,
+.high.ng-enter.ng-enter-active {
+    opacity: 1;
+}
+
+.high.ng-enter,
+.high.ng-leave {
+    -webkit-transition: 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -moz-transition: 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -ms-transition: 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -o-transition: 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    transition: 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    position: relative;
+    display: block;
+}
+
+.high.ng-leave.ng-enter-active,
+.high.ng-leave {
+    opacity: 1;
+    top: 0;
+    height: 30px;
+}
+
+.high.ng-leave,
+.high.ng-leave-active,
+.high.ng-enter {
+    opacity: 0;
+    top: -50px;
+    height: 0px;
+}
+
+.due-company {
+    float: right;
+    right: 10px;
+    color: chocolate;
+    font-weight: 600;
+}
+
+@media only screen and  (max-width: 468px) {
+    .table caption {
+        border: 1px solid #d8d8d8;
+        border-bottom: 1px solid #bbb;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .user-task-container, .crm-editor-container {
+        width: 100% !important;
+        float: left;
+        margin: 0 0px 15px 0px !important;
+    }
